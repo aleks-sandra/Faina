@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faina 🍃</title>
+    <style>
+            html {
+              background: linear-gradient(135deg, #fdfcfb 0%, #dfdbce 30%);
+            }
+
+
+            div {
+              font-family: "Courier New", Courier, monospace;
+            }
+            .headding {
+              display: inline;
+            }
+            .firstList {
+              list-style: none;
+              padding: 0;
+              text-align: right;
+              color: #2d2b2c;
+              font-size: larger;
+            }
+
+            .elementsList1 {
+              display: inline-block;
+              transition: all 200ms ease-in-out;
+              padding: 15px 7px 15px;
+              border-radius: 5px 30px 20px;
+              box-sizing: border-box;
+            }
+
+            .elementsList1:hover {
+              cursor: pointer;
+              background: #2d2b2c;
+              color: #dfdbce;
+              border-radius: 5px 30px 20px;}
+
+            .home {
+              display: flex;
+              justify-content: space-evenly;
+              text-align: center;
+              border: 1px solid #2d2b2c;
+              padding: 5%;
+              border-radius: 20px;
+              box-sizing: border-box;
+              margin: 3% 10%;
+              background: #2d2b2c;
+
+            }
+            .insideHome {
+              display: inline-block;
+              box-sizing: border-box;
+              vertical-align: middle;
+              max-width: 50%;
+              max-height 400px;
+              padding: 15px;
+              width: 400px;
+              color: #dfdbce;
+              line-height: 1.5;
+
+            }
+            h2 {
+              margin: 80px 0 60px;
+              color: #2d2b2c;
+            }
+            .spacing {
+              margin: 30px;
+            }
+            .secondList {
+              list-style: none;
+              padding: 0;
+            }
+            .elementsList2 {
+              display: inline-block;
+              margin: 5px;
+              box-sizing: border-box;
+              width: 30%;
+              font-size: large;
+              min-width: 240px;
+            }
+            .about {
+              border: 1px solid #2d2b2c;
+              border-radius: 0 50% 0 50%;
+              transition: opacity 200ms ease-in-out;
+            }
+            .about:hover {
+              cursor: pointer;
+              opacity: 0.5;
+            }
+            a {
+              text-decoration: none;
+              color: #2d2b2c;
+            }
+            .decoration:hover {
+              text-decoration: underline;
+            }
+
+            .centering {
+              text-align: center;
+            }
+            .middle {
+
+              border: 1px solid #2d2b2c;
+              border-radius: 20px;
+              padding: 60px 80px;
+              margin: 0 10%;
+              text-align: left;
+              background: #2d2b2c;
+              color: #dfdbce;
+      }
+            .furniture {
+              padding: 0 0 60px 100px;
+
+            }
+            .decor {
+              text-align: right;
+              padding: 0 100px 60px 0;
+            }
+            .lightning {
+              padding: 0 0 0 100px;
+
+            }
+            .shorter {
+              margin: 6% 20% 0 0;
+            }
+            .shorter2 {
+              margin: 6% 0 0 20%;
+            }
+            .thirdList {
+              list-style: none;
+              padding: 0;
+              margin: 40px auto;
+            }
+            .elementsList3 {
+              width: 20%;
+              box-sizing: border-box;
+              padding: 0;
+              margin: 5px;
+              display: inline-block;
+              color: #2d2b2c;
+              font-size: large;
+              min-width: 150px;
+            }
+            .roundpic {
+              border-radius: 50%;
+            }
+
+            button {
+              display: block;
+              margin: 10% auto;
+              padding: 2% 6%;
+              color: #dfdbce;
+              background: #2d2b2c;
+              border: 1px solid #2d2b2c;
+              border-radius: 0 50% 0 50%;
+              transition: all 200ms ease-in-out;
+              font-size: large;
+              box-shadow: rgb(111, 109, 109) 3px 4px 8px;
+              font-family: "Courier New", Courier, monospace;
+            }
+            button:hover {
+              cursor: pointer;
+              background: linear-gradient(#bbab8d 60%, #9e7c5c);
+              color: #2d2b2c;
+            }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div>
+        <ul class="firstList">
+          <li class="elementsList1">
+            <div class="headding button1">About Us</div>
+          </li>
+          <li class="elementsList1">
+            <div class="headding button2">Our Products</div>
+          </li>
+          <li class="elementsList1">
+            <div class="headding button3">Materials</div>
+          </li>
+          <li class="elementsList1">
+            <div class="headding bbutton">Contact</div>
+          </li>
+        </ul>
+      </div>
+      <div class="home">
+        <div class="insideHome">
+          <h1>FAINA</h1>
+          <br />
+          <div>
+            An advocate of laconic, environmentally friendly living,
+            architecture, and design.
+          </div>
+        </div>
+        <hr />
+        <div class="insideHome">
+          <strong>FAINA</strong> is an authentic collection of
+          <em>furniture, lighting,</em> and <em> décor</em>. Established in 2014
+          as a reflection of the strong social-cultural changes in Ukraine,
+          FAINA takes roots in the country's cultural heritage and represents
+          <span style="font-weight: bold">modern Ukrainian design</span> .
+          Following the philosophy of live design, the FAINA collection is
+          released two times per year — during Winter and Summer solstice, days
+          of natural renewal.
+        </div>
+      </div>
+
+      <div class="centering">
+        <h2 id="tobutton1">About Us</h2>
+        <ul class="secondList">
+          <li class="elementsList2">
+            <a href="https://faina.design/pages/the-studio" target="_blank">
+              <img
+                class="about"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/229/original/Home_2-2.png?1703421096"
+                alt="Faina"
+                width="250px"
+              />
+              <div class="spacing decoration">Faina</div>
+            </a>
+          </li>
+          <li class="elementsList2">
+            <a href="https://faina.design/pages/faina-gallery" target="_blank">
+              <img
+                class="about"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/230/original/ezgif-3-6d832b3ae4.jpg?1703421540"
+                alt="Faina Gallery"
+                width="250px"
+              />
+
+              <div class="spacing decoration">Faina Gallery</div>
+            </a>
+          </li>
+          <li class="elementsList2">
+            <a href="https://faina.design/collections" target="_blank">
+              <img
+                class="about"
+                src="https://faina.design/cdn/shop/files/2023-12-13_15.02.34.png?v=1702472583"
+                alt="Collections"
+                width="250px"
+              />
+              <div class="spacing decoration">Collections</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="centering" id="tobutton2">Our Products</h2>
+        <div class="middle">
+          <div class="furniture">
+            <div>Furniture</div>
+            <br />
+            <p>
+              The Faina collection is created in the style of ethnic minimalism.
+              Each piece of furniture can be included to any interior as it
+              distinguishes itself with its textured forms and may become the
+              interior accent due to its individuality.
+            </p>
+            <hr class="shorter" />
+          </div>
+          <div class="decor">
+            <div>Décor</div>
+            <br />
+            <p>
+              The omen-like archetypal shapes of design pieces harbour an
+              animistic presence. In the hands of local artisans, each object
+              finds a living soul. Ukrainian history passed on in sustainable
+              collections of live Ukrainian design.
+            </p>
+            <hr class="shorter2" />
+          </div>
+
+          <div class="lightning">
+            <div>Lighting</div>
+            <br />
+            <p>
+              Each SONIAH lamp is crafted by hand in FAINA’s sustainable
+              material — ZTISTA. Sculptural SONIAH lamps stem from the ground,
+              as if fueled by the power of the earth.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+      </div>
+      <div class="centering">
+        <h2 id="tobutton3">Materials</h2>
+        <ul class="thirdList">
+          <li class="elementsList3">
+            <img
+              class="roundpic"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/228/original/koraztistafainadesign-2.jpg?1703419894"
+              alt="Ztista"
+              width="150px"
+            />
+            <div class="spacing">Ztista</div>
+          </li>
+          <li class="elementsList3">
+            <img
+              class="roundpic"
+              src="https://faina.design/cdn/shop/products/CategoryD-Wool-024.jpg?v=1651582334"
+              alt="Wool"
+              width="150px"
+            />
+            <div class="spacing">Wool</div>
+          </li>
+          <li class="elementsList3">
+            <img
+              class="roundpic"
+              src="https://themazi.com/cdn/shop/products/LFA_2556copy_900x.jpg?v=1633869097"
+              alt="Muslin"
+              width="150px"
+            />
+            <div class="spacing">Muslin</div>
+          </li>
+          <li class="elementsList3">
+            <img
+              class="roundpic"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/227/original/Screenshot_3-2.png?1703419874"
+              alt="Wood"
+              width="150px"
+            />
+            <div class="spacing">Wood</div>
+          </li>
+          <li class="elementsList3">
+            <img
+              class="roundpic"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/226/original/plynglass-2.png?1703419843"
+              alt="Glass"
+              width="150px"
+            />
+            <div class="spacing">Glass</div>
+          </li>
+          <li class="elementsList3">
+            <img
+              class="roundpic"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/225/original/2021-10-02_21.55_1_1-2.png?1703419753"
+              alt="Clay"
+              width="150px"
+            />
+            <div class="spacing">Clay</div>
+          </li>
+        </ul>
+        <button>Contact Us</button>
+        <p>Coded by Oleksandra Andriiuk</p>
+      </div>
+    </div>
+    <script>
+      function contactUs() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+
+        if (age < 18) {
+          alert(
+            "Sorry, " +
+              name +
+              "😔 You're not old enough to purchase from our store."
+          );
+        } else {
+          prompt("What is your email adress");
+          alert("Thank you, " + name + "! We'll be in touch soon🍃");
+        }
+      }
+      let contactUsButton = document.querySelector("button");
+      contactUsButton.addEventListener("click", contactUs);
+
+      let contactUsButton1 = document.querySelector(".bbutton");
+      contactUsButton1.addEventListener("click", contactUs);
+
+      function scroll1() {
+        document
+          .getElementById("tobutton1")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+      document.querySelector(".button1").addEventListener("click", scroll1);
+
+      function scroll2() {
+        document
+          .getElementById("tobutton2")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+      document.querySelector(".button2").addEventListener("click", scroll2);
+
+      function scroll3() {
+        document
+          .getElementById("tobutton3")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+      document.querySelector(".button3").addEventListener("click", scroll3);
+    </script>
+  </body>
+</html>
